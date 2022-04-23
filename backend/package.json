@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Generate an NFT collection and deploy a minting dapp easy!!",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "minter-dapp-backend": "index.js"
+  },
   "pkg": {
     "assets": [
       "layers/**/*",
@@ -44,6 +46,7 @@
     "canvas": "^2.8.0",
     "commander": "^9.0.0",
     "dotenv": "^16.0.0",
+    "express": "^4.17.3",
     "form-data": "^4.0.0",
     "gif-encoder-2": "^1.0.5",
     "graceful-fs": "^4.2.9",
@@ -54,5 +57,6 @@
     "puppeteer-extra-plugin-stealth": "^2.9.0",
     "sha1": "^1.1.1",
     "yesno": "^0.3.1"
-  }
+  },
+  "devDependencies": {}
 }
