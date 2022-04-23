@@ -43,7 +43,7 @@ const layerConfigurations = [
       { name: "Hoodie" },
       { name: "Face" },
       { name: "Head" },
-      { name: "Logo Trippy" },
+      { name: "Logo T" },
       { name: "Eyes" },
       { name: "Mouth Trippy" },
     ],
