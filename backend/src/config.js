@@ -7,14 +7,14 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "DentedPixelFeels";
-const description = "Collection of 2222 DentedPixelFeels Living on the etherium Blockchain. Hopefully the will end up in the hands of the DentedFeels community. FREE MINT NO ROADMAP";
+const namePrefix = "PixelFeels";
+const description = "Collection of 2222 PixelFeels Living on the etherium Blockchain. Hopefully the will end up in the hands of the DentedFeels community. FREE MINT NO ROADMAP";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 4444,
+    growEditionSizeTo: 2022,
     layersOrder: [
       { name: "Background" },
       { name: "Hoodie" },
@@ -23,6 +23,29 @@ const layerConfigurations = [
       { name: "Cap Logo" },
       { name: "Eyes" },
       { name: "Mouth" },
+    ],
+  },{
+    growEditionSizeTo: 2122,
+    layersOrder: [
+      { name: "Dentenator Background" },
+      { name: "Hoodie" },
+      { name: "Face" },
+      { name: "Head" },
+      { name: "Cap Logo" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Mask" },
+    ],
+  },{
+    growEditionSizeTo: 2222,
+    layersOrder: [
+      { name: "Trippy Background" },
+      { name: "Hoodie" },
+      { name: "Face" },
+      { name: "Head" },
+      { name: "Logo Trippy" },
+      { name: "Eyes" },
+      { name: "Mouth Trippy" },
     ],
   },
 ];
