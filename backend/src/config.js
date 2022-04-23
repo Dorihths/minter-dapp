@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "DentedPixelFeels";
-const description = "Collection of 5000 DentedPixelFeels Living on the etherium Blockchain. Hopefully the will end up in the hands of the DentedFeels community. FREE MINT NO ROADMAP";
+const description = "Collection of 2222 DentedPixelFeels Living on the etherium Blockchain. Hopefully the will end up in the hands of the DentedFeels community. FREE MINT NO ROADMAP";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -19,7 +19,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Hoodie" },
       { name: "Face" },
-      { name: "Cap" },
+      { name: "HeadCap" },
       { name: "Cap Logo" },
       { name: "Eyes" },
       { name: "Mouth" },
