@@ -19,7 +19,7 @@ const layerConfigurations = [
       { name: "Background" },
       { name: "Hoodie" },
       { name: "Face" },
-      { name: "HeadCap" },
+      { name: "Head" },
       { name: "Cap Logo" },
       { name: "Eyes" },
       { name: "Mouth" },
