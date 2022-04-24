@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "PixelFeels FAN ART Collection!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'PixelFeels are a collection of 2222 randomly generated Feels as a FAN ART with NO ROADMAP!! But everything can happen ';
+const welcome_p = 'PixelFeels is a collection of 2222 randomly generated Feels as a FAN ART with NO ROADMAP!! But everything can happen.';
 const h1_presale_coming_soon = "PixelFeelS Droping Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
